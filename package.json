@@ -1,0 +1,34 @@
+{
+  "name": "dsh-computer-use-compat",
+  "version": "0.1.0",
+  "description": "Backfill prompt-section order keys that DSH core 0.1.5-rc.2 lacks, so the official DeepSeek Harness computer-use providers can load on an older host.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jipika/dsh-computer-use-compat.git"
+  },
+  "homepage": "https://github.com/jipika/dsh-computer-use-compat#readme",
+  "bugs": {
+    "url": "https://github.com/jipika/dsh-computer-use-compat/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "computer-use",
+    "compat",
+    "system-prompt",
+    "section-order"
+  ],
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "private": true
+}
