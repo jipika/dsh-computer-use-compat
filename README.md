@@ -7,6 +7,10 @@
 
 [![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
+> **拥有**：prompt section order 键 `TOOL_COMPUTER_USE` 的回填（宿主 core 0.1.5-rc.2 缺该键）。
+> **冲突时**：**必须排在 `computer-use` / `computer-use-native` 之前** insert，否则 native provider 拿到 undefined order 会整体回滚（`section()` 抛 TypeError）。
+> **回滚**：删该 insert 块 —— 代价是 computer-use 系列同时失去加载能力。
+
 ---
 
 ## 它解决什么
