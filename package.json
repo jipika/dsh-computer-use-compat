@@ -1,5 +1,6 @@
 {
   "name": "dsh-computer-use-compat",
+  "icon": "./assets/icon.svg",
   "version": "0.1.0",
   "description": "Backfill prompt-section order keys that DSH core 0.1.5-rc.2 lacks, so the official DeepSeek Harness computer-use providers can load on an older host.",
   "license": "MIT",

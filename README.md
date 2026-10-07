@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/icon.svg" width="72" alt="dsh-computer-use-compat icon">
+</div>
+
 # dsh-computer-use-compat
 
 > Backfill the prompt-section order keys that DSH core 0.1.5-rc.2 lacks, so the official
